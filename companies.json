@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Meridian Property Management Group",
+    "site": "https://mmgprop.com/",
+    "platform": "wpl",
+    "vacancies_url": "https://mmgprop.com/san-francisco/"
+  },
+  {
+    "name": "Bay Property Group",
+    "site": "https://www.baypropertygroup.com/",
+    "platform": "appfolio",
+    "appfolio_sub": "baypropertygroup"
+  },
+  {
+    "name": "Structure Properties",
+    "site": "https://structureproperties.com/",
+    "platform": "appfolio",
+    "appfolio_sub": "structureproperties"
+  }
+]

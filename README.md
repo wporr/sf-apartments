@@ -14,3 +14,15 @@ Richmond / Cole Valley / Noe Valley. Ranked by sunlight first (bay windows,
 exposure, top floor, corner units), then wood floors. Not ranked by price.
 
 Routine: https://claude.ai/code/routines/trig_01LqJ1XCFjm9XTm8UUsLJh3A
+
+## Direct-to-landlord targeting
+
+`target_buildings.py` pulls every apartment building (2-40 units) in the target
+neighborhoods from SF's public building-permit records and writes `buildings.csv`
+-- address, unit count, stories, APN, and a Street View link per building.
+
+Run it with `python3 target_buildings.py`. No dependencies.
+
+Note: no SF open dataset contains owner names or phone numbers. Owner names are
+withheld from online assessor data by California law; get them from the Recorder's
+deed index by APN (grantee on the most recent deed) or in person at City Hall Rm 190.
